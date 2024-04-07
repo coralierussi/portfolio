@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "RobotoR";
+    src: url(./Links/Fonts/Roboto-Regular.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: "RobotoL";
+    src: url(./Links/Fonts/Roboto-Light.ttf) format(truetype);
+  }
+  @font-face {
+    font-family: "RobotoB";
+    src: url(./Links/Fonts/Roboto-Bold.ttf) format(truetype);
+  }
+  body {
+    font-family: RobotoR;
+}
+.break {
+    clear: both;
+  }
+  /*Général au site*/
+
+  .h2{
+    margin: 100px 0px 75px 100px;
+  }
+  .expligene{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  /*header*/
+
+  .header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 100px 20px;
+  }
+  .logo, .navbar{
+    float: left;
+  }
+  .logo{
+    width: 65px;
+  }
+.navbar{
+    margin-left: 65%;
+    display: flex;
+    gap: 50px;
+}
+.menu{
+    background-color: #f6c484;
+    padding: 7px 2.5px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+/*index.html*/
+
+.littlepresentation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+.imgpres{
+  width: 400px;
+  color: black;
+}
+.minipresentation{
+  width: 30%;
+  font-size: 20px;
+}
+.mesprojetsindex{
+  width: 95%;
+  height: 700px;
+  margin-left: 50px;
+}
+.scolaireindex, .personelindex, .proindex{
+  width: 33%;
+  float: left;
+  display: grid;
+  justify-items: center;
+}
+.titleprojet{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.imgprojet{
+  width: 150px;
+}
+.textprojet1, .textprojet2, .button{
+  float: right;
+  align-self: baseline;
+}
+.textprojet1, .textprojet2{
+  margin-left: 50px;
+  margin-top: 45px;
+  width: 4000px;
+  font-size: 20px;
+}
+.projet1{
+  display: flex;
+  align-items: center;  
+}
+.projet2{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.buttonclass{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  width: 125px;
+  background-color: #f6c484;
+  border: none;
+  border-radius: 50%;
+  padding: 7px 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/*Footer*/
+
+.footer{
+  background-color: #f6c484;
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+.footlogo{
+  width: 65px;
+  margin-left: 15px;
+  margin-top: 70px;
+}
+.footnavbar{
+  width: 450px;
+  display: flex;
+  gap: 50px;
+  margin-left: 400px;
+  margin-top: 45px;
+}
+.footlogo, .footnavbar{
+  float: left;
+}
+.menufoot{
+  text-decoration: none;
+  color: black;
+  margin-top: 50px;
+}
+.footcontact{
+  float: right;
+  margin-top: -125px;
+  padding-right: 40px;
+}
+.footinsta, .footlinkedin{
+  width: 40px;
+  margin-right: 20px;
+  margin-top: 45px;
+}
+.footinsta{
+  margin-right: 75px;
+}
+.footlinkedin{
+  margin-right: 30px;
+}
+.footimgmail, .footimgtel{
+  width: 30px;
+  margin-left: 600px;
+}
+.footimgmail, .footimgtel, .footinsta, .footlinkedin, .foottextmail, .foottexttel{
+  float: right;
+}
+.footimgmail, .foottextmail{
+  float: left;
+  margin-top: 25px;
+}
+.footimgtel, .foottexttel{
+  float: left;
+  margin-top: 10px;
+}
+.foottextmail, .foottexttel{
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/*Contact.html*/
+
+.cv{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.cvpng{
+  width: 400px;
+  margin-left: 300px;
+}
+.cvpng:hover{
+  width: 800px;
+}
+.cvvideo{
+  width: 70%;
+}
+.reseau{
+  width: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.insta, .linkedin{
+  width: 100px;
+  padding-top: 30px;
+}
+.imgmail, .imgtel{
+  width: 60px;
+}
+.coordonnees{
+  width: 50%;
+}
+.reseau, .coordonnees{
+  float: left;
+  margin-bottom: 100px;
+}
+.tel{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.mail{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.texttel, .textmail{
+  font-size: 25px;
+}
+/*Creche.html*/
+
+.div1, .div2, .div3, .div4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1, .img2, .img3, .img4{
+  width: 20%;
+  float: left;
+}
+.text1, .text2, .text3, .text4{
+  width: 60%;
+  font-size: 20px;
+}
+.div4{
+  margin-bottom: 150px;
+}
+.logofinal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imglogofinal{
+  width: 25%;
+}
+.mockup, .framwork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgframwork, .imgmockup{
+  width: 25%;
+  margin-right: 40px;
+}
+.imgframwork:hover{
+  width: 75%;
+}
+.textcreche{
+  width: 40%;
+  font-size: 20px;
+}
+/*Mes projets.html -> aller voir dans index.html pour certaines parties*/
+.titre{
+  text-align: center;
+}
+.subtitleprojet{
+  margin-top: 50px;
+}
+.mesprojets{
+  width: 95%;
+  height: 1100px;
+  margin-left: 50px;
+}
+/*Qui suis-je.html*/
+.presentation{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.imgmoi{
+  width: 500px;
+  margin-left: 250px;
+}
+.textepres{
+  font-size: 20px;
+  width: 80%;
+}
+/*Site.html*/
+
+.partie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.imgsite{
+  width: 50%;
+  float: left;
+  margin-right: 25px;
+}
+.appdesign, .mockupfb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgmockupfb, .imgad{
+  margin-right: 25px;
+}
+.textsite{
+  width: 30%;
+  font-size: 20px;
+}
+/*Carnet.html*/
+
+.carnet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.filecarnet{
+  width: 350px;
+}
+.flyer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.imgflyer{
+  width: 400px;
+}
+.textcarnet{
+  width: 40%;
+  font-size: 20px;
+}
+/*PressVercors.html*/
+
+.logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.imglogocafe{
+  width: 400px;
+}
+.imglogobis{
+  width: 600px;
+}
+.boites{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.filevercors{
+  width: 500px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+.textvercors{
+  width: 40%;
+  font-size: 20px;
+}
+.textvercorsboite{
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 10%;
+}
